@@ -54,9 +54,12 @@ nav {
     font-size: 1.5rem;
 }
 
-#nav-info a img:first-of-type, #nav-info a img:nth-of-type(2), #nav-info a img:last-of-type {
+#nav-info a img {
     height: 24px;
-    margin-right: .5rem;
+}
+
+#nav-info a img:nth-of-type(2) {
+    margin: 0 .5rem;
 }
 
 #nav-info img:last-of-type {
