@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Berlin Sans FB';
+    src: url(berlin-sans-fb.ttf);
+}
+
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: black;
+    color: white;
+    max-width: 225px;
+    padding: 1rem;
+}
+
+#nav-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-header h1 {
+    font-family: 'Berlin Sans FB';
+    margin: 0;
+}
+
+#profile-img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: .75rem 0;
+}
+
+#nav-header span {
+    padding-bottom: .75rem;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+#nav-info {
+    margin-top: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+#nav-info a img:first-of-type, #nav-info a img:nth-of-type(2), #nav-info a img:last-of-type {
+    height: 24px;
+    margin-right: .5rem;
+}
+
+#nav-info img:last-of-type {
+    margin: 0;
+}
+
+main {
+    background: #96bebe;
+    width: 100%;
+}
+
+@media screen and (max-width: 687px) {
+    body {
+        flex-direction: column;
+    }
+
+    nav {
+        max-width: 100%;
+    }
+
+    main {
+        flex: 1;
+    }
+}
