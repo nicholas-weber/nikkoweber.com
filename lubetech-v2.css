@@ -38,7 +38,11 @@ main div img:first-of-type {
     margin-right: 1rem;
 }
 
-@media screen and (max-width: 800px) {
+ul {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 850px) {
     main div img {
         height: auto;
         width: 100%;
