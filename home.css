@@ -111,7 +111,6 @@ main h1 {
 
 #items img:hover {
     filter: grayscale(50%);
-    box-shadow: 0 0 5px white;
 }
 
 /* Overlay */
