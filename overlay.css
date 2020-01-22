@@ -5,50 +5,50 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
-p {
-    margin-bottom: 0;
-}
-
 main {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
     flex-direction: column;
-    width: 825px;
+    max-width: 825px;
     margin: auto;
 }
 
-main div {
-    margin-bottom: 1rem;
+.site-info h1 {
+    font-size: 3rem;
 }
 
-main div:last-of-type {
-    margin: 0;
-}
-
-main div img {
-    height: 350px;
-}
-
-main div img:first-of-type {
-    margin-right: 1rem;
-}
-
-ul {
+.site-info p, ul {
     margin-bottom: 0;
 }
 
+.images {
+    margin-top: 1rem;
+}
+
+.images > div {
+    margin-bottom: 1rem;
+}
+
+.images > div:last-of-type {
+    margin: 0;
+}
+
+.images div img {
+    height: 350px;
+    width: auto;
+}
+
+.images div img:first-of-type {
+    margin-right: 1rem;
+}
+
 @media screen and (max-width: 850px) {
-    main div img {
+    .images div img {
         height: auto;
         width: 100%;
     }
 
-    main div img:first-of-type {
+    .images div img:first-of-type {
         margin-bottom: 1rem;
     }
 }
