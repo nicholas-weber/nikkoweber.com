@@ -13,6 +13,7 @@ main {
     flex-direction: column;
     max-width: 825px;
     margin: auto;
+    padding-bottom: 1.5rem;
 }
 
 .site-info h1 {
@@ -49,6 +50,7 @@ main {
     margin-top: 1rem;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .images-mobile img {
@@ -63,6 +65,16 @@ main {
 
     .images div img:first-of-type {
         margin-bottom: 1rem;
+    }
+
+    .images-mobile img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .images-mobile img:last-of-type {
+        margin: 0;
     }
 }
 

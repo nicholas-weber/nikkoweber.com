@@ -85,7 +85,6 @@ main h1 {
 
 #items {
     display: flex;
-    justify-content: space-around;
 }
 
 #items a {
@@ -95,6 +94,7 @@ main h1 {
     cursor: pointer;
     transition: all .3s;
     color: black;
+    margin-right: 2rem;
 }
 
 #items a:hover {
@@ -175,8 +175,13 @@ main h1 {
         align-items: center;
     }
 
+    #items a {
+        margin-bottom: 1rem;
+    }
+
     #items img {
         width: 300px;
+        height: auto;
     }
 
     #overlay {
