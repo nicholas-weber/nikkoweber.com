@@ -103,8 +103,8 @@ main h1 {
 }
 
 #items img {
-    width: 400px;
-    height: 230px;
+    width: 600px;
+    height: 345px;
     margin: 1rem 0;
     filter: grayscale(100%);
 }

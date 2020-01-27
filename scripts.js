@@ -1,4 +1,4 @@
-function openOverlay1() {
+function openLubeTechV2() {
     document.getElementById("overlay").style.display = "flex";
     document.getElementById("overlay").innerHTML = 
     `
@@ -7,7 +7,7 @@ function openOverlay1() {
     `
 }
 
-function openOverlay2() {
+function openBarCribbage() {
     document.getElementById("overlay").style.display = "flex";
     document.getElementById("overlay").innerHTML = 
     `
