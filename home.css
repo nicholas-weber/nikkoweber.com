@@ -81,6 +81,8 @@ main {
 
 main h1 {
     margin: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
 }
 
 #items {
@@ -101,9 +103,9 @@ main h1 {
     margin-right: 1.5rem;
 } /* Remove this after more items are added */
 
-#items a:hover {
+#items a span {
     color: white;
-    text-shadow: 0 0 3px white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #items img {
