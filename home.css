@@ -85,6 +85,7 @@ main h1 {
 
 #items {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #items a {
@@ -94,8 +95,11 @@ main h1 {
     cursor: pointer;
     transition: all .3s;
     color: black;
-    margin-right: 2rem;
 }
+
+#items a:first-of-type {
+    margin-right: 1.5rem;
+} /* Remove this after more items are added */
 
 #items a:hover {
     color: white;
@@ -150,6 +154,8 @@ main h1 {
     height: 100%;
     border: none;
 }
+
+/* Responsive */
 
 @media screen and (max-width: 1000px) {
     body {
