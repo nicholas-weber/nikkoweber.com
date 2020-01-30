@@ -10,3 +10,21 @@ a {
 h1 {
     margin: 0;
 }
+
+button {
+    border-radius: 0;
+    border: 2px solid white;
+    color: white;
+    background: black;
+    font-size: 1rem;
+    padding: .25rem 1rem;
+    margin-top: .75rem;
+    transition: .3s all;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
