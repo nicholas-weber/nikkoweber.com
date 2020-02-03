@@ -120,7 +120,7 @@ main h1 {
 #overlay button {
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 1.5rem;
     opacity: .8;
 }
 

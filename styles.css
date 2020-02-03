@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    display: flex;
+}
+
 a {
     color: #96bebe;
 }
