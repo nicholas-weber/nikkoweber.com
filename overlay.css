@@ -56,8 +56,8 @@ main {
 }
 
 .mobile-only img {
-    height: auto !important;
-    width: 100%;
+    max-height: 500px !important;
+    width: 260px;
     margin-right: 1rem;
 }
 
@@ -101,6 +101,22 @@ main {
     .mobile img:last-of-type {
         margin: 0 !important;
     }
+
+    .mobile-only div {
+        flex-direction: column;
+    }
+
+    .mobile-only div img {
+        margin-bottom: 1rem !important;
+    }
+
+    .mobile-only div img:last-of-type {
+        margin: 0 !important;
+    }
+
+    .mobile-only .mobile {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -122,18 +138,6 @@ main {
 
     .desktop img:last-of-type {
         margin: 0 !important;
-    }
-
-    .mobile-only div {
-        flex-direction: column;
-    }
-
-    .mobile-only div img:last-of-type {
-        margin: 0 !important;
-    }
-
-    .mobile-only .mobile {
-        margin: 0;
     }
 }
 
