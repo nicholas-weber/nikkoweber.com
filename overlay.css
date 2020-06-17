@@ -108,6 +108,7 @@ main {
 
     .mobile-only div img {
         margin-bottom: 1rem !important;
+        width: 260px;
     }
 
     .mobile-only div img:last-of-type {
