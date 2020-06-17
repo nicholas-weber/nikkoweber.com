@@ -57,7 +57,7 @@ main {
 
 .mobile-only img {
     max-height: 500px !important;
-    width: 260px;
+    width: auto;
     margin-right: 1rem;
 }
 
